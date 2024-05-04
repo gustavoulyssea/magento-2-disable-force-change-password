@@ -1,0 +1,28 @@
+{
+  "name": "gumnet/magento-2-disable-force-change-password",
+  "description": "Magento 2 disable force change password on expiration for admin user",
+  "require": {
+    "php": ">=7.0"
+  },
+  "type": "magento2-module",
+  "license": [
+      "BSD-2-Clause"
+  ],
+  "authors": [
+    {
+      "name": "Gustavo Ulyssea @ GUM Net",
+      "email": "suporte@gum.net.br",
+      "homepage": "https://gum.net.br",
+      "role": "Leader"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "GumNet\\DisableForceChangePassword\\": ""
+    }
+  },
+    "version": "1.0.0"
+}
